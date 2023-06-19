@@ -1,25 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import SearchGif from './components/searchGif';
+import React, { useState } from 'react';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [term, setTerm] = useState('');
+
+    const updateTerm = (event) => {
+        setTerm(event.target.value);
+    }
+
+    return (
+        <div>
+            <input type="text" placeholder='search' onChange={updateTerm}></input>
+            <SearchGif txt={term} />
+        </div>
+    );
 }
 
 export default App;
