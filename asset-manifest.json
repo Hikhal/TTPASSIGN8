@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TTPASSIGN8/static/css/main.be7c230a.css",
+    "main.js": "/TTPASSIGN8/static/js/main.d423a3fa.js",
+    "static/js/787.c6570ffb.chunk.js": "/TTPASSIGN8/static/js/787.c6570ffb.chunk.js",
+    "index.html": "/TTPASSIGN8/index.html",
+    "main.be7c230a.css.map": "/TTPASSIGN8/static/css/main.be7c230a.css.map",
+    "main.d423a3fa.js.map": "/TTPASSIGN8/static/js/main.d423a3fa.js.map",
+    "787.c6570ffb.chunk.js.map": "/TTPASSIGN8/static/js/787.c6570ffb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be7c230a.css",
+    "static/js/main.d423a3fa.js"
+  ]
+}
