@@ -20,13 +20,13 @@ body {
   border-radius: 10px;
   width: 200px;
   background-color: white;
-  overflow: hidden; /* New */
+  overflow: hidden;
   border: solid black;
 }
 
 .gif-card img {
-  max-width: 100%; /* New */
-  max-height: 100%; /* New */
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .search-input {
